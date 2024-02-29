@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    background: #F6F6F6;
+
+}
+
+.Group4{
+    width: 1085.861px;
+    height: 516.307px;
+    flex-shrink: 0;
+
+    /*margin-top: 97.69px;*/
+    /*margin-left: 201px;*/
+
+}
+
+.Group4 h3{
+    color: #000;
+
+    /* H3 */
+    /*font-family: Circular;*/
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 0px;
+}
+
+.Group4 h4{
+    color: #686868;
+
+    /* Body Small */
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 9px;
+    margin-bottom: 21px;
+}
+
+
+.Div-Logo{
+    display: flex;
+    width: 166px;
+    height: 22.899px;
+
+}
+
+.Logo-Group{
+    flex-shrink: 0;
+    margin-right: 9px;
+
+}
+
+#BtnGoogle:hover{
+    cursor: pointer;
+}
+
+#BtnGoogle{
+    display: flex;
+    width: 424px;
+    height: 40px;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-bottom: 9px;
+
+    border-radius: 7px;
+    border: 1px solid #E6E6E6;
+    background:  #FFF;
+
+
+    box-shadow: 0px 1px 2px 0px rgba(24, 24, 28, 0.04), 0px 3px 4px -5px rgba(24, 24, 28, 0.03);
+}
+
+#BtnGoogle p{
+    color: #222124;
+
+    /* Text sm/Semibold */
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.05px;
+}
+
+#BtnEmail:hover{
+    cursor: pointer;
+}
+
+#BtnEmail{
+    display: flex;
+    width: 424px;
+    height: 40px;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(24, 24, 28, 0.04), 0px 3px 4px -5px rgba(24, 24, 28, 0.03);
+}
+
+#BtnEmail p{
+    color: #222124;
+
+    /* Text sm/Semibold */
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.05px;
+}
+
+.SectionLinks{
+
+    width: 450px;
+    float: left;
+}
+
+.DivSectionRechts{
+    width: 632.861px;
+    height: 516.307px;
+    flex-shrink: 0;
+    float: right;
+}
+
+.Frame3{
+    width: 456px;
+    height: 440px;
+    flex-shrink: 0;
+    margin-left: 80px;
+
+
+
+    border-radius: 7px;
+    background: #E7EFEE;
+}
+
+.DivImage{
+    width: 561.74px;
+    height: 412.259px;
+    /*transform: rotate(-11.541deg);*/
+    flex-shrink: 0;
+    margin-left: -80px;
+    padding: 0;
+
+}
+
+.Div-Desc{
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.Div-Desc p{
+
+    width: auto;
+    height: auto;
+    color: #686868;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 14px;
+    margin-bottom: 22px;
+}
+
+.Div-Desc a{
+    color: #35BCE7;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 241.667% */
+    text-decoration-line: underline;
+
+}
+
+.Div-Punten{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.Div-Punten-Text{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 7px;
+}
+.Div-Punten-Text p{
+    color: #686868;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 241.667% */
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    margin-top: -40px;
+}
+
+.Div-Checkbox{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 4.899px 2.81px 4.792px 2.607px;
+    justify-content: center;
+    align-items: center;
+}
