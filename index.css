@@ -6,9 +6,19 @@ html, body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Main-Content {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100%;
+
 }
+
 
 
 body{
@@ -20,6 +30,7 @@ body{
     width: 1085.861px;
     height: 516.307px;
     flex-shrink: 0;
+
 
     /*margin-top: 97.69px;*/
     /*margin-left: 201px;*/
@@ -216,7 +227,7 @@ body{
 }
 .Div-Punten-Text p{
     color: #686868;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -236,4 +247,47 @@ img{
     padding: 4.899px 2.81px 4.792px 2.607px;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.Div-Footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    width: 1085.861px;
+
+}
+
+.Footer-Links{
+    color: #9D9D9D;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 241.667% */
+    width: 500px;
+
+}
+
+.Footer-Rechts{
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+    gap: 11px;
+    width: 632.861px;
+    margin-right: 80px;
+
+}
+
+.Footer-Rechts a{
+    color: #35BCE7;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    text-decoration-line: underline;
+
 }
