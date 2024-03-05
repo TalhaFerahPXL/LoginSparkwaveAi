@@ -301,6 +301,7 @@ img{
     .Main-Content{
         display: block;
 
+
     }
 
     .Group4 h3{
@@ -317,7 +318,7 @@ img{
 
     .Group4{
         width: 100%;
-        margin: 15px;
+
 
     }
 
@@ -351,11 +352,11 @@ img{
     }
 
     #BtnGoogle{
-        width: 382px;
+        width: 100%;
     }
 
     #BtnEmail{
-        width: 382px;
+        width: 100%;
     }
 
     .Div-Desc{
@@ -382,6 +383,10 @@ width: 100%;
         width: 100%;
         margin: 0;
         justify-content: normal;
+    }
+
+    body{
+margin: 15px;
     }
 
     }
