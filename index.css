@@ -1,3 +1,8 @@
+@font-face {
+    font-family: CircularBook;
+    src: url("Fonts/lineto-circular-book.ttf");
+}
+
 *{
     box-sizing: border-box;
 }
@@ -40,9 +45,8 @@ body{
 .Group4 h3{
     color: #000;
 
-    /* H3 */
-    /*font-family: Circular;*/
-    font-family: "Plus Jakarta Sans", sans-serif;
+
+    font-family: CircularBook;
     font-size: 21px;
     font-style: normal;
     font-weight: 500;
@@ -291,3 +295,93 @@ img{
     text-decoration-line: underline;
 
 }
+
+
+@media (max-width: 576px) {
+    .Main-Content{
+        display: block;
+
+    }
+
+    .Group4 h3{
+        font-size: 18px;
+        line-height: 26px;
+        width: 362px;
+    }
+
+    .Group4 h4{
+        font-size: 14px;
+        line-height: 22px;
+        width: 313px;
+    }
+
+    .Group4{
+        width: 100%;
+        margin: 15px;
+
+    }
+
+    .SectionLinks{
+        width: 100%;
+
+    }
+    .DivSectionRechts{
+
+
+        width: 495.501px;
+        height: 404.244px;
+        flex-shrink: 0;
+    }
+
+    .Frame3{
+        width: 382px;
+        height: 328px;
+        flex-shrink: 0;
+        margin: 0;
+    }
+
+    .DivImage{
+        width: 439.817px;
+        height: 322.78px;
+        margin-left: 0;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #BtnGoogle{
+        width: 382px;
+    }
+
+    #BtnEmail{
+        width: 382px;
+    }
+
+    .Div-Desc{
+        display: flex;
+        width: 331px;
+        /*height: 39px;*/
+        align-items: center;
+        align-content: center;
+        gap: 4px;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+
+    .Div-Footer{
+        width: 100%;
+        display: block;
+    }
+
+    .Footer-Links{
+width: 100%;
+    }
+
+    .Footer-Rechts{
+        width: 100%;
+        margin: 0;
+        justify-content: normal;
+    }
+
+    }
