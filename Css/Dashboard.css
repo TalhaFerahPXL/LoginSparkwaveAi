@@ -176,7 +176,7 @@ body{
 
 }
 .TimeBoxIn{
-    width: 63px;
+    width: 0px;
     height: 3px;
     flex-shrink: 0;
     border-radius: 96px;

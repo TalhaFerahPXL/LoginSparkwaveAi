@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.Library {
+    display: flex;
+
+    align-items: center; /* Center content vertically */
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.Div-Top{
+    margin-top: 38px;
+    display: flex;
+    width: 700px;
+    height: 50px;
+}
+h1{
+    color: #18181B;
+    margin: 0;
+    width: 86px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+.Div-Top svg{
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+
+#BtnUpload:hover{
+    cursor: pointer;
+}
+
+#BtnUpload{
+    display: inline-flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FDCC0D;
+
+
+
+    box-shadow: 0px 4px 4px -4px rgba(79, 81, 89, 0.32), 0px 2px 5px -2px rgba(79, 81, 89, 0.03), 0px 0px 0px 1px #FDCC0D, 0px 0px 0px 1px rgba(0, 0, 0, 0.10);
+
+
+    border: 1px solid #FEDB59;
+
+
+    width: 91px;
+    height: 28px;
+    margin-left: auto;
+    margin-top: 4px;
+}
+
+#BtnUpload p{
+    color: #734012;
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#BtnUpload svg{
+    margin: 0;
+
+}
+
+.Settings{
+    display: flex;
+    width: 700px;
+    padding: 18.5px 0px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    background: #FFF;
+
+    /* dp/modul/card */
+    box-shadow: 0px 2px 12px 0px rgba(79, 81, 89, 0.06), 0px 0px 4px 0px rgba(79, 81, 89, 0.03), 0px 0px 0px 1px rgba(188, 189, 194, 0.20), 0px 0.5px 1px 0px rgba(188, 189, 194, 0.20), 0px 1px 0px 0px rgba(255, 255, 255, 0.06) inset, 0px 0.5px 0px 0px rgba(255, 255, 255, 0.06) inset;
+margin-top: 33px;
+}
+
+.Settings-MiddleCell{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Settings-MiddleCell-DataCell{
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    gap: 2px;
+}
+
+.Settings-MiddleCell-DataCell-Backdrop{
+    display: flex;
+    width: 128px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 6px;
+    background: #FFF;
+
+    /* dp/basis/sm */
+    box-shadow: 0px 2px 5px -2px rgba(79, 81, 89, 0.03), 0px 4px 4px -4px rgba(79, 81, 89, 0.32), 0px 0px 0px 1px rgba(188, 189, 194, 0.20), 0px 1px 0px 0px rgba(255, 255, 255, 0.06) inset, 0px 0.5px 0px 0px rgba(255, 255, 255, 0.06) inset;
+}
+
+#Btn1:hover{
+    cursor: pointer;
+}
+
+#Btn1{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+}
+
+.BtnIcon{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Btn2:hover{
+    cursor: pointer;
+}
+
+#Btn2{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+}
+
+
+#Btn3:hover{
+    cursor: pointer;
+}
+
+
+#Btn3{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+}
+
+
+#Btn4:hover{
+    cursor: pointer;
+}
+
+
+#Btn4{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+}
