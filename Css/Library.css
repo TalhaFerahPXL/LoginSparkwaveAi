@@ -84,20 +84,28 @@ h1{
 
 }
 
-.Settings{
+#BtnUpload div{
     display: flex;
-    width: 700px;
-    padding: 18.5px 0px;
+    width: 16px;
+    height: 16px;
     justify-content: center;
     align-items: center;
+}
 
+.Settings {
+    display: flex;
+    flex-wrap: wrap; /* Voeg dit toe */
+    width: 700px;
+    padding: 18.5px;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     background: #FFF;
-
-    /* dp/modul/card */
     box-shadow: 0px 2px 12px 0px rgba(79, 81, 89, 0.06), 0px 0px 4px 0px rgba(79, 81, 89, 0.03), 0px 0px 0px 1px rgba(188, 189, 194, 0.20), 0px 0.5px 1px 0px rgba(188, 189, 194, 0.20), 0px 1px 0px 0px rgba(255, 255, 255, 0.06) inset, 0px 0.5px 0px 0px rgba(255, 255, 255, 0.06) inset;
-margin-top: 33px;
+    margin-top: 33px;
+    overflow: visible; /* Voeg dit toe */
 }
+
 
 .Settings-MiddleCell{
     display: flex;

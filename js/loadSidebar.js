@@ -1,4 +1,4 @@
-// Dit is loadSidebar.js
+
 document.addEventListener("DOMContentLoaded", function() {
     const sidebarContainer = document.getElementById('sidebar');
     if (sidebarContainer) {
@@ -7,3 +7,15 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(data => sidebarContainer.innerHTML = data);
     }
 });
+
+
+window.addEventListener('load', function() {
+    var preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+
+    document.getElementById("main").style.display = 'flex'
+
+
+});
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "LoginInAi",
+  "version": "1.0.0",
+  "dependencies": {
+    "luxon": "^3.4.4"
+  }
+}
