@@ -2,6 +2,12 @@
   "name": "LoginInAi",
   "version": "1.0.0",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "google-auth-library": "^9.8.0",
+    "jsonwebtoken": "^9.0.2",
     "luxon": "^3.4.4"
   }
 }
