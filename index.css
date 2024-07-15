@@ -71,9 +71,17 @@ body{
 
 }
 
+
+.g_id_signin{
+    display: none;
+}
+
+
 #BtnGoogle:hover{
     cursor: pointer;
 }
+
+
 
 #BtnGoogle{
     display: flex;
@@ -93,6 +101,7 @@ body{
 
     box-shadow: 0px 1px 2px 0px rgba(24, 24, 28, 0.04), 0px 3px 4px -5px rgba(24, 24, 28, 0.03);
 }
+
 
 #BtnGoogle p{
     color: #222124;
@@ -128,7 +137,7 @@ body{
     box-shadow: 0px 1px 2px 0px rgba(24, 24, 28, 0.04), 0px 3px 4px -5px rgba(24, 24, 28, 0.03);
 }
 
-#BtnEmail a{
+#BtnEmail p{
     color: #222124;
 
     font-family: 'Inter', sans-serif;
@@ -291,6 +300,13 @@ img{
 
 
 @media (max-width: 1100px){
+
+    body{
+        display: flex;
+        width: 60%;
+    }
+
+
     .Group4{
         width: 100%;
         height: auto;
@@ -299,6 +315,7 @@ img{
         justify-content: center;
         align-items: center;
     }
+
 
     .Div-Footer{
         width: 100%;
@@ -337,7 +354,7 @@ img{
         /*width: 439.817px;*/
         height: auto;
         margin-left: 0;
-        margin-bottom: 35px;
+
 
     }
 
@@ -356,6 +373,10 @@ img{
 
 
 @media (max-width: 576px) {
+   body{
+       width: 95%;
+       margin: 10px;
+   }
     .Main-Content{
         display: block;
 
@@ -410,7 +431,7 @@ img{
         /*width: 439.817px;*/
         height: auto;
         margin-left: 0;
-        margin-bottom: 35px;
+
 
     }
 
@@ -454,10 +475,6 @@ width: 100%;
         width: 100%;
         margin: 0;
         justify-content: normal;
-    }
-
-    body{
-margin: 15px;
     }
 
 

@@ -68,51 +68,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-//Time Left END
-
-// footerEvents.js
-
-
-
-
-// let footer = document.getElementById("Footer");
-// footer.addEventListener("click", ()=>{
-//     alert()
-// })
-// let footerContent = document.getElementById("Footer-Content");
-//
-//
-// function hideFooterContent() {
-//     footerContent.style.display = "none";
-//     footer.style.borderRadius = "0";
-//     footer.style.background = "";
-//     document.getElementById("ChevronDown").style.display = "block";
-//     document.getElementById("ChevronUp").style.display = "none";
-// }
-//
-//
-// footer.addEventListener("click", function(event) {
-//     if (footerContent.style.display === "none") {
-//         footerContent.style.display = "block";
-//         footer.style.borderRadius = "9px";
-//         footer.style.background = "#EDEDED";
-//         document.getElementById("ChevronDown").style.display = "none";
-//         document.getElementById("ChevronUp").style.display = "block";
-//     } else {
-//         hideFooterContent();
-//     }
-//     event.stopPropagation();
-// });
-//
-//
-//
-// document.addEventListener("click", function(event) {
-//     let isClickInsideFooterContent = footerContent.contains(event.target);
-//
-//     if (!isClickInsideFooterContent && footerContent.style.display === "block") {
-//         hideFooterContent();
-//     }
-// });
 
 
 

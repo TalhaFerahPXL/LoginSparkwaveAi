@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../Images/BackgroundAuthentication.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.MainContainer{
+    width: 421px;
+    height: 390px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.05));
+
+
+
+
+}
+
+.FrameTop{
+    display: inline-flex;
+    padding: 22px 64px 26px 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 17px 17px 0px 0px;
+    border-bottom: 1px solid #E5E7EB;
+    background: #FFF;
+    width: 421px;
+
+}
+
+.FrameTopText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.FrameTopText h3{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+.FrameTopText p{
+    color: #595959;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.FrameBottom{
+    width: 421px;
+    height: 241px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 17px 17px;
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+.ItemCover:hover{
+    cursor: pointer;
+}
+
+.ItemCover{
+    width: 347px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    box-shadow: 0px 4px 9px 6px rgba(0, 0, 0, 0.02);
+    margin-top: 21px;
+}
+
+.Item{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px;
+}
+
+.ItemText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.ItemText h5{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.ItemText p{
+    width: 198px;
+    color: #696969;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+}
+
+
+
+
+@media (max-width: 900px) {
+    body {
+
+        background-position: center;
+        background-size: cover;
+
+
+
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+
+        background-position: center;
+        background-size: cover;
+
+    }
+}

@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="../js/Packages.js" defer></script>
+    <link rel="stylesheet" href="../Css/Packages.css">
 </head>
 <body>
 
@@ -32,6 +34,23 @@
 </section>
 
 
-<h1>Packages</h1>
+
+
+<div style="margin: 20px">
+
+
+<button id="Buy"><p>Buy</p></button>
+<div style="color: red; display: none; margin-top: 10px" id="MessageRed">
+    Verify your email first. We have sent you an email. Didn't receive an email? <a href="#" onclick="resendEmail(); return false;">Resend</a>
+</div>
+
+    <div style="color: green; display: none; margin-top: 10px; font-family: 'Inter', sans-serif" id="MessageGreen">
+        Purchase succesful
+    </div>
+
+</div>
+
+
+
 </body>
 </html>

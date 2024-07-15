@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/Login.css">
+    <script src="../js/Authentication.js"></script>
+
+
+</head>
+<body>
+
+
+<main id="main">
+
+    <section id="links">
+
+        <div id="links-container">
+            <div id="links-content">
+
+
+                <div style="margin-top: 30px; display: flex; justify-content: center; width: 100%">
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 23 23" fill="none" >
+                    <path d="M13.3504 2.02666C13.4029 1.60636 13.1721 1.20175 12.7836 1.03309C12.395 0.864432 11.9418 0.972109 11.6707 1.29749L3.15079 11.5213C3.00355 11.6979 2.85442 11.8768 2.74584 12.034C2.64316 12.1827 2.45566 12.475 2.44987 12.8591C2.44323 13.299 2.63923 13.7175 2.98135 13.9939C3.2802 14.2354 3.62479 14.2785 3.80475 14.2948C3.99502 14.3121 4.22791 14.312 4.45785 14.312H10.3687L9.54859 20.8725C9.49605 21.2928 9.72691 21.6974 10.1154 21.8661C10.504 22.0347 10.9572 21.9271 11.2283 21.6016L19.7482 11.3779C19.8954 11.2013 20.0445 11.0224 20.1531 10.8651C20.2558 10.7165 20.4433 10.4241 20.4491 10.04C20.4557 9.60014 20.2597 9.1817 19.9177 8.90523C19.6187 8.66373 19.2742 8.62062 19.0942 8.60434C18.9039 8.5871 18.671 8.58715 18.441 8.58719L12.5303 8.5872L13.3504 2.02666Z" fill="#111111"/>
+                </svg>
+
+                </div>
+
+                <div id="links-div-headerAndForm">
+
+
+                    <header>
+                        <h1>Log in</h1>
+                        <h3>
+                            Welcome back! Please enter your details.
+                        </h3>
+                    </header>
+
+                    <div id="links-div-content">
+
+                        <form>
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <p class="hidden-p"></p>
+                            </div>
+                            <div class="form-field">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" placeholder="••••••••" required>
+                                <p class="hidden-p" id="errortxt"></p>
+                            </div>
+
+
+
+
+
+                        </form>
+
+                        <div class="actions">
+                            <button type="button" id="BtnSignin" onclick="loginUser()">Log in</button>
+
+
+                        </div>
+
+                        <div class="div-footer">
+
+                            <div>
+                                <p>Don’t have an account?</p>
+
+                            </div>
+                            <a href="Register.html" style="color: black">Register</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+</main>
+</body>
+</html>

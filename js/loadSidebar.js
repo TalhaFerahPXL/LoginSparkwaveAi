@@ -92,6 +92,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 //Create new team END
 
+
+                document.getElementById("BtnSignOut").addEventListener("click", ()=>{
+
+                    fetch('http://localhost:3000/logout', {
+                        method: 'GET',
+                        credentials: 'include'
+                    })
+                        .then(response => {
+                            if (response.redirected) {
+                                window.location.href = response.url;
+                            }
+                        })
+                        .catch(error => console.error('Fout bij het uitloggen:', error));
+
+                })
+
+
             });
     }
 });
@@ -107,7 +124,11 @@ window.addEventListener('load', function() {
 
 });
 
+let email;
+let isVerifiedUser;
+let isGoogleUser;
 window.onload = function() {
+
     fetch('http://localhost:3000/dashboard', {
         credentials: 'include'
     })
@@ -116,7 +137,11 @@ window.onload = function() {
 
             let name = data.name
 
-            document.getElementById("FooterEmailTxt").textContent = data.email;
+            isVerifiedUser = data.isVerified
+            isGoogleUser = data.isGoogleUser
+            email = data.email
+
+            document.getElementById("FooterEmailTxt").textContent = email;
             document.getElementById("FooterNameTxt").textContent = name;
 
             let footerEllipse = document.getElementById("Footer-Ellipse");
@@ -127,7 +152,7 @@ window.onload = function() {
                 footerEllipse.style.backgroundRepeat = 'no-repeat'
 
             } else {
-                footerEllipse.textContent = name.substring(0, 2)
+                footerEllipse.textContent = name.substring(0, 2).toUpperCase()
             }
 
 
