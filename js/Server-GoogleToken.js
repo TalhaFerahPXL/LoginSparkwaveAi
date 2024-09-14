@@ -22,7 +22,9 @@ app.use(bodyParser.json());
 
 
 const { OAuth2Client } = require('google-auth-library');
-const CLIENT_ID = '298907679587-e0jaohumttmmfceiqml4q3olpb5ksd2v.apps.googleusercontent.com';
+
+//CLIENT DELETED IN GOOGLE CONSOLE
+const CLIENT_ID = '';
 
 const client = new OAuth2Client(CLIENT_ID);
 
@@ -142,9 +144,9 @@ app.post('/updateVerification', (req, res) => {
 // app.get('/dashboard', (req, res) => {
 //     if (req.session.token) {
 //         // Er is een geldige sessie
-//         res.sendFile(__dirname + '/public/dashboard.html'); // Toon het dashboard
+//         res.sendFile(__dirname + '/public/dashboard.html');
 //     } else {
 //         // Geen geldige sessie
-//         res.redirect('/'); // Stuur terug naar de hoofdpagina of loginpagina
+//         res.redirect('/');
 //     }
 // });
