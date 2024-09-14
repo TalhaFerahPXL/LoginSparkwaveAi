@@ -4,7 +4,7 @@ Dit project richt zich op de ontwikkeling van een authenticatiesysteem voor weba
 
 # 📸 Screenshots
 <p align="center"><img src="Startscherm.png" width="800"></p>
-<p align="center"><img src="MobileView.png" width="800"></p>
+<p align="center"><img src="MobileView.png" width="400"></p>
 
 <h3>Dashboard Google Gebruiker</h3>
 <p align="center"><img src="DashboardGoogleUser.png" width="800"></p>
