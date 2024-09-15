@@ -27,6 +27,10 @@ Dit project richt zich op de ontwikkeling van een authenticatiesysteem voor weba
 - **Python**: Gebruikt om scripts te maken voor het testen van veelvoorkomende XSS-aanvallen op de website.
 
 
+## 🔍 Onderzoek
+Lees mijn proef over de inlogprocessen
+* *https://github.com/TalhaFerahPXL/SparkwaveAi/blob/main/Graduaatsproef_Ferah_Talha.pdf*
+
 
 # 📸 Screenshots
 <p align="center"><img src="Startscherm.png" width="800"></p>
